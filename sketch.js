@@ -33,7 +33,7 @@ supporter3 = new supporter(250,400,20,150)
 
 
 function draw() {
-  background(0);  
+  background("lightblue");  
  Engine.update(engine);
  console.log(box2.body.position.x);
  console.log(box2.body.position.y);
